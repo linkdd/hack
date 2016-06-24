@@ -30,19 +30,19 @@ Run:
 
 **File:** ``req1.py``
 
-> Select all relations with type ``X``
+> Select all relations with type ``X``.
 
 ### Query 2
 
 **File:** ``req2.py`` (map-reduce algorithm: ``req2_mapreduce.py``)
 
-> Select all nodes with 2 or more neighbors
-> Follow relations 2 times
-> Select nodes
+> Select all nodes with 2 or more neighbors.
+> Follow relations 2 times.
+> Select nodes.
 
 ### Query 3
 
 **File:** ``req3.py`` (map-reduce algorithm: ``req3_mapreduce.py``)
 
-> Select all nodes of type ``TB``
-> Select all relations with those nodes as source, and the relations' targets
+> Select all nodes of type ``TB``.
+> Select all relations with those nodes as source, and the relations' targets.
