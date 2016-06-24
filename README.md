@@ -1,15 +1,12 @@
-graph
-=====
+# graph
 
 Graph modeled into **riak** and queried via *MapReduce* algorithms.
 
-Meta Model
-----------
+## Meta Model
 
 ![Graph Meta Model](metamodel.png)
 
-Riak Model
-----------
+## Riak Model
 
 3 data types (with **Solr** schema):
 
@@ -17,8 +14,7 @@ Riak Model
  - [relationships](relationship.xml)
  - [graphs](graph.xml)
 
-Initialize test environment
----------------------------
+## Initialize test environment
 
 Run:
 
@@ -28,18 +24,15 @@ Run:
 
 ![Initialized graph](graph.png)
 
-Test queries
-------------
+## Test queries
 
-Query 1
-~~~~~~~
+### Query 1
 
 **File:** ``req1.py``
 
 > Select all relations with type ``X``
 
-Query 2
-~~~~~~~
+### Query 2
 
 **File:** ``req2.py`` (map-reduce algorithm: ``req2_mapreduce.py``)
 
@@ -47,8 +40,7 @@ Query 2
 > Follow relations 2 times
 > Select nodes
 
-Query 3
-~~~~~~~
+### Query 3
 
 **File:** ``req3.py`` (map-reduce algorithm: ``req3_mapreduce.py``)
 
